@@ -24,4 +24,5 @@ public class Member {
     //member클래스의 member변수에 거울일 뿐이야
     @OneToMany(mappedBy = "member")
     private List<Order> orders = new ArrayList<>();
+
 }
