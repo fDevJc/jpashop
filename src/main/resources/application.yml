@@ -17,6 +17,7 @@ spring:
 #        이설정은 println으로 찍는다
 #        show_sql: true
         format_sql: true
+        default_batch_fetch_size: 100
 
 logging:
   level:
